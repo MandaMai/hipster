@@ -56,11 +56,16 @@ section {
   width: 50%;
   float: left;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section:hover{
+  box-shadow: 0 34px 48px rgba(0,0,0,0.55), 0 10px 10px rgba(0,0,0,0.22), inset 0 0 5em white;
 }
 
 .blue {
   background-color: #6fcbd5;
 }
+
 
 .yellow {
   background-color: #fbb535;
@@ -69,6 +74,7 @@ section {
 .red {
   background-color: #df4b35;
 }
+
 
 .beige {
   background-color: #ccbeac;
